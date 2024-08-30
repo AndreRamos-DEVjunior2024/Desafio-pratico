@@ -38,6 +38,9 @@ main{
 }
 #list {
     padding-top:64px ;
+    border-bottom: 3px solid #D9D9D9;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 #list h3 {
     color:#E1624F;
@@ -66,4 +69,41 @@ main{
 #img2, #img3 {
     margin-top: 48px;
     margin-bottom: 20px;
+}
+#travel li {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1B1B1B;
+    margin-left: 40px;
+}
+#travel p+p {
+    margin-top: 16px;
+    font-weight: bold;
+}
+#travel ul li {
+    margin-left: 25px;
+    font-size: 16px;
+    color:#0C51A7;
+    list-style: disc;
+}
+ul li::marker {
+    color: #333333;
+}
+#travel #cores #cor1 {
+    color: #591B98;
+}
+#travel #cores #cor2 {
+    color: #E5245E;
+}
+#travel #cores #cor3 {
+    color: #E95E10;
+}
+footer p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+footer p+p {
+    margin-top:65px ;
+    font-family: "Alice", serif;
 }
